@@ -1,0 +1,7 @@
+D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+d:\unreal engine 4.22.3\snakegame\source\snakegame\SnakeGameGameModeBase.h
+D:\Unreal Engine 4.22.3\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Unreal Engine 4.22.3\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Unreal Engine 4.22.3\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Unreal Engine 4.22.3\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SnakeGameGameModeBase.generated.h
