@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -15,98 +15,25 @@ class AActor;
 #endif
 #define SNAKEGAME_SnakeBase_generated_h
 
+#define SnakeGame_Source_SnakeGame_SnakeBase_h_23_SPARSE_DATA
 #define SnakeGame_Source_SnakeGame_SnakeBase_h_23_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGameOver) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->GameOver(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execChangeMovementSpeed) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_SpeedMultiplier); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ChangeMovementSpeed(Z_Param_SpeedMultiplier); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSnakeElementOverlap) \
-	{ \
-		P_GET_OBJECT(ASnakeElementBase,Z_Param_OverlappedElement); \
-		P_GET_OBJECT(AActor,Z_Param_Other); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SnakeElementOverlap(Z_Param_OverlappedElement,Z_Param_Other); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execMove) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Move(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddSnakeElement) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_ElementsNum); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->AddSnakeElement(Z_Param_ElementsNum); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetElementSize); \
+	DECLARE_FUNCTION(execGameOver); \
+	DECLARE_FUNCTION(execChangeMovementSpeed); \
+	DECLARE_FUNCTION(execSnakeElementOverlap); \
+	DECLARE_FUNCTION(execMove); \
+	DECLARE_FUNCTION(execAddSnakeElement);
 
 
 #define SnakeGame_Source_SnakeGame_SnakeBase_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGameOver) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->GameOver(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execChangeMovementSpeed) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_SpeedMultiplier); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ChangeMovementSpeed(Z_Param_SpeedMultiplier); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSnakeElementOverlap) \
-	{ \
-		P_GET_OBJECT(ASnakeElementBase,Z_Param_OverlappedElement); \
-		P_GET_OBJECT(AActor,Z_Param_Other); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SnakeElementOverlap(Z_Param_OverlappedElement,Z_Param_Other); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execMove) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Move(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddSnakeElement) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_ElementsNum); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->AddSnakeElement(Z_Param_ElementsNum); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetElementSize); \
+	DECLARE_FUNCTION(execGameOver); \
+	DECLARE_FUNCTION(execChangeMovementSpeed); \
+	DECLARE_FUNCTION(execSnakeElementOverlap); \
+	DECLARE_FUNCTION(execMove); \
+	DECLARE_FUNCTION(execAddSnakeElement);
 
 
 #define SnakeGame_Source_SnakeGame_SnakeBase_h_23_INCLASS_NO_PURE_DECLS \
@@ -114,7 +41,7 @@ private: \
 	static void StaticRegisterNativesASnakeBase(); \
 	friend struct Z_Construct_UClass_ASnakeBase_Statics; \
 public: \
-	DECLARE_CLASS(ASnakeBase, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SnakeGame"), NO_API) \
+	DECLARE_CLASS(ASnakeBase, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SnakeGame"), NO_API) \
 	DECLARE_SERIALIZER(ASnakeBase)
 
 
@@ -123,7 +50,7 @@ private: \
 	static void StaticRegisterNativesASnakeBase(); \
 	friend struct Z_Construct_UClass_ASnakeBase_Statics; \
 public: \
-	DECLARE_CLASS(ASnakeBase, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SnakeGame"), NO_API) \
+	DECLARE_CLASS(ASnakeBase, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SnakeGame"), NO_API) \
 	DECLARE_SERIALIZER(ASnakeBase)
 
 
@@ -132,7 +59,7 @@ public: \
 	NO_API ASnakeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASnakeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASnakeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASnakeBase(ASnakeBase&&); \
@@ -147,7 +74,7 @@ private: \
 	NO_API ASnakeBase(const ASnakeBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASnakeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASnakeBase)
 
 
@@ -157,6 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASnakeBase); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_PRIVATE_PROPERTY_OFFSET \
+	SnakeGame_Source_SnakeGame_SnakeBase_h_23_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_RPC_WRAPPERS \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_INCLASS \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_STANDARD_CONSTRUCTORS \
@@ -168,6 +96,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_PRIVATE_PROPERTY_OFFSET \
+	SnakeGame_Source_SnakeGame_SnakeBase_h_23_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_INCLASS_NO_PURE_DECLS \
 	SnakeGame_Source_SnakeGame_SnakeBase_h_23_ENHANCED_CONSTRUCTORS \

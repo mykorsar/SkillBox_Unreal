@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,14 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SNAKEGAME_Interactable_generated_h
 
+#define SnakeGame_Source_SnakeGame_Interactable_h_13_SPARSE_DATA
 #define SnakeGame_Source_SnakeGame_Interactable_h_13_RPC_WRAPPERS
 #define SnakeGame_Source_SnakeGame_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define SnakeGame_Source_SnakeGame_Interactable_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	SNAKEGAME_API UInteractable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractable) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractable) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(SNAKEGAME_API, UInteractable); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInteractable); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInteractable); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	SNAKEGAME_API UInteractable(UInteractable&&); \
@@ -37,8 +38,8 @@ private: \
 	SNAKEGAME_API UInteractable(const UInteractable&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(SNAKEGAME_API, UInteractable); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInteractable); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractable)
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInteractable); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractable)
 
 
 #define SnakeGame_Source_SnakeGame_Interactable_h_13_GENERATED_UINTERFACE_BODY() \
@@ -87,6 +88,7 @@ public: \
 #define SnakeGame_Source_SnakeGame_Interactable_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	SnakeGame_Source_SnakeGame_Interactable_h_13_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_RPC_WRAPPERS \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_INCLASS_IINTERFACE \
 public: \
@@ -96,6 +98,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define SnakeGame_Source_SnakeGame_Interactable_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	SnakeGame_Source_SnakeGame_Interactable_h_13_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \

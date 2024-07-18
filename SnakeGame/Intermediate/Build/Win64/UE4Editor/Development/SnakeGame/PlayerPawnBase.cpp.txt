@@ -1,7 +1,7 @@
-D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
-d:\unreal engine 4.22.3\snakegame\source\snakegame\PlayerPawnBase.h
-D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\PlayerPawnBase.generated.h
-D:\Unreal Engine 4.22.3\UE_4.22\Engine\Source\Runtime\Engine/Classes/Camera/CameraComponent.h
-D:\Unreal Engine 4.22.3\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-d:\unreal engine 4.22.3\snakegame\source\snakegame\SnakeBase.h
-D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SnakeBase.generated.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Source\SnakeGame\PlayerPawnBase.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\PlayerPawnBase.generated.h
+D:\Unreal Engine 4.22.3\UE_4.27\Engine\Source\Runtime\Engine/Classes/Camera/CameraComponent.h
+D:\Unreal Engine 4.22.3\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Source\SnakeGame\SnakeBase.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SnakeBase.generated.h

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SNAKEGAME_MyHUD_generated_h
 
+#define SnakeGame_Source_SnakeGame_MyHUD_h_15_SPARSE_DATA
 #define SnakeGame_Source_SnakeGame_MyHUD_h_15_RPC_WRAPPERS
 #define SnakeGame_Source_SnakeGame_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define SnakeGame_Source_SnakeGame_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
@@ -38,7 +39,7 @@ public: \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyHUD); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyHUD(AMyHUD&&); \
@@ -55,7 +56,7 @@ private: \
 	NO_API AMyHUD(const AMyHUD&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyHUD); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD)
 
 
@@ -65,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	SnakeGame_Source_SnakeGame_MyHUD_h_15_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_RPC_WRAPPERS \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_INCLASS \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_STANDARD_CONSTRUCTORS \
@@ -76,6 +78,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	SnakeGame_Source_SnakeGame_MyHUD_h_15_SPARSE_DATA \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
 	SnakeGame_Source_SnakeGame_MyHUD_h_15_ENHANCED_CONSTRUCTORS \

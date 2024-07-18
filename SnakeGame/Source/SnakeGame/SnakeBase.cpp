@@ -17,6 +17,7 @@ ASnakeBase::ASnakeBase()
 	MovementSpeed = 10.f;
 	LastMoveDirection = EMovementDirection::DOWN;
 	bCanChangeDirection = true;
+	
 }
 
 // Called when the game starts or when spawned
@@ -24,7 +25,7 @@ void ASnakeBase::BeginPlay()
 {
 	Super::BeginPlay();
 	SetActorTickInterval(MovementSpeed);
-	AddSnakeElement(5);
+	AddSnakeElement(3);
 }
 
 // Called every frame
@@ -66,7 +67,7 @@ void ASnakeBase::AddSnakeElement(int ElementsNum)
 		}
 		else
 		{
-			// Начальная позиция для первого элемента змейки
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 			NewLocation = GetActorLocation();
 		}
 
@@ -114,7 +115,7 @@ void ASnakeBase::Move()
 	SnakeElements[0]->AddActorWorldOffset(MovementVector);
 	SnakeElements[0]->ToggleCollision();
 
-	// Разрешаем изменение направления после обновления позиции
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	bCanChangeDirection = true;
 }
 
@@ -130,16 +131,16 @@ void ASnakeBase::SnakeElementOverlap(ASnakeElementBase* OverlappedElement, AActo
 		{
 			IInteractableInterface->Interact(this, bIsFirst);
 
-			// Проверяем, является ли объект едой
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 			if (Other->IsA<AFood>())
 			{
-				// Генерируем случайное число от 0 до 1
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 0 пїЅпїЅ 1
 				float RandomValue = FMath::FRand();
-				// Если случайное число меньше или равно 0.5 (50% вероятность)
+				// пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ 0.5 (50% пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 				if (RandomValue <= 0.5f)
 				{
-					// Увеличиваем скорость змейки в 2 раза
-					ChangeMovementSpeed(2.0f);
+					// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ 2 пїЅпїЅпїЅпїЅ
+					ChangeMovementSpeed(1.2f);
 				}
 			}
 		}

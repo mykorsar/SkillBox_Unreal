@@ -4,8 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Food.h"
 #include "SnakeGameGameModeBase.generated.h"
 
+
+class ASnakeBase;
+class AFood;
 /**
  * 
  */
@@ -20,7 +24,27 @@ protected:
 public:
 	virtual void Tick(float DeltaSeconds) override;
 
+
+	UFUNCTION()
+	void FoodGenerator();
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly)
+	FVector2D YEdge;
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly)
+	FVector2D XEdge;
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly)
+	TSubclassOf<AFood> Food;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	class ASnakeBase* Player;
+
 private:
 	void HandleEscapeKey();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Debugging", meta = (AllowPrivateAccess = true))
+	FString DebugString = "";
+
 	
 };

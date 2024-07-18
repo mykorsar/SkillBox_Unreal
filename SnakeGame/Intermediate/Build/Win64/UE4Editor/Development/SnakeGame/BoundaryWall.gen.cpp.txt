@@ -1,5 +1,5 @@
-D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
-D:\Unreal Engine 4.22.3\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Unreal Engine 4.22.3\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Unreal Engine 4.22.3\SnakeGame\Source\SnakeGame/BoundaryWall.h
-d:\unreal engine 4.22.3\snakegame\intermediate\build\win64\ue4editor\inc\snakegame\BoundaryWall.generated.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+D:\Unreal Engine 4.22.3\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal Engine 4.22.3\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Source\SnakeGame/BoundaryWall.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\BoundaryWall.generated.h

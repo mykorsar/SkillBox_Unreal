@@ -53,11 +53,11 @@ void ASnakeElementBase::HandleBeginOverlap(UPrimitiveComponent* OverlappedCompon
 {
 	if (IsValid(SnakeOwner))
 	{
-		// Проверка на границу
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		if (OtherActor->IsA(ABoundaryWall::StaticClass()))
 		{
 			SnakeOwner->Destroy();
-			// Здесь можно добавить логику перезапуска игры
+			// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 			return;
 		}
 

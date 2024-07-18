@@ -1,1 +1,1 @@
-D:\Unreal Engine 4.22.3\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h

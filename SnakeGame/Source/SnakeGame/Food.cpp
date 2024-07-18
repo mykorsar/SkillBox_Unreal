@@ -3,11 +3,12 @@
 
 #include "Food.h"
 #include "SnakeBase.h"
+#include "SnakeGameGameModeBase.h"
 
 // Sets default values
 AFood::AFood()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -16,7 +17,7 @@ AFood::AFood()
 void AFood::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -31,11 +32,12 @@ void AFood::Interact(AActor* Interactor, bool bIsHead)
 	if (bIsHead)
 	{
 		auto Snake = Cast<ASnakeBase>(Interactor);
+		ASnakeGameGameModeBase* Gamemode = Cast<ASnakeGameGameModeBase>(GetWorld()->GetAuthGameMode());
 		if (IsValid(Snake))
 		{
 			Snake->AddSnakeElement();
+			Gamemode->FoodGenerator();
 			Destroy();
 		}
 	}
 }
-

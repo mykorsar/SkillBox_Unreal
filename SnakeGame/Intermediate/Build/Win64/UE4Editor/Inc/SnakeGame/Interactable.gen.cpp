@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -54,12 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UInteractable_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UInteractable()
 	{
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInteractable, 717770467);
+	IMPLEMENT_CLASS(UInteractable, 3569824819);
 	template<> SNAKEGAME_API UClass* StaticClass<UInteractable>()
 	{
 		return UInteractable::StaticClass();

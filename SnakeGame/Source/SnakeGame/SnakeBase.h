@@ -29,7 +29,7 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<ASnakeElementBase> SnakeElementClass;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	float ElementSize;
 
 	UPROPERTY(EditDefaultsOnly)
@@ -66,4 +66,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void GameOver();
+
+	UFUNCTION()
+	float GetElementSize() { return ElementSize; }
 };

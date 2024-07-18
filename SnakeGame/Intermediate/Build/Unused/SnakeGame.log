@@ -1,0 +1,38 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal).
+  Creating makefile for SnakeGameEditor (game project files are newer)
+  Parsing headers for SnakeGameEditor
+    Running UnrealHeaderTool "D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\SnakeGame.uproject" "D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\SnakeGameEditor\Development\SnakeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mykor\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for SnakeGameEditor in 40,5998708 seconds
+  Building SnakeGameEditor...
+  Using Visual Studio 2022 14.37.32824 toolchain (D:\University Programms\VisualStudio2022\VC\Tools\MSVC\14.37.32822) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 24 actions with 4 processes...
+    [1/24] Default.rc2
+    [2/24] SharedPCH.Engine.ShadowErrors.cpp
+    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
+    [3/24] PlayerPawnBase.gen.cpp
+    [4/24] BoundaryWall.gen.cpp
+    [5/24] MyHUD.gen.cpp
+    [6/24] SnakeBase.gen.cpp
+    [7/24] SnakeGame.cpp
+    [8/24] Interactable.gen.cpp
+    [9/24] Food.gen.cpp
+    [10/24] SnakeGameGameModeBase.cpp
+    [11/24] SnakeElementBase.cpp
+    [12/24] SnakeBase.cpp
+    [13/24] Interactable.cpp
+    [14/24] PlayerPawnBase.cpp
+    [15/24] GameHUD.cpp
+    [16/24] BoundaryWall.cpp
+    [17/24] Food.cpp
+    [18/24] SnakeGame.init.gen.cpp
+    [19/24] SnakeGameGameModeBase.gen.cpp
+    [20/24] MyHUD.cpp
+    [21/24] SnakeElementBase.gen.cpp
+    [22/24] UE4Editor-SnakeGame.lib
+       Создается библиотека D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\UE4Editor-SnakeGame.lib и объект D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\UE4Editor-SnakeGame.exp
+    [23/24] UE4Editor-SnakeGame.dll
+       Создается библиотека D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\UE4Editor-SnakeGame.suppressed.lib и объект D:\Unreal Engine 4.22.3\SnakeGameGit\SkillBox_Unreal\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\UE4Editor-SnakeGame.suppressed.exp
+    [24/24] SnakeGameEditor.target
+  Total time in Parallel executor: 46,12 seconds
+  Total execution time: 90,05 seconds

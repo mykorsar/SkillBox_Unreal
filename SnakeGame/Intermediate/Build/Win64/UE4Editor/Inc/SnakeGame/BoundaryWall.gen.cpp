@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeBoundaryWall() {}
 		{ "ModuleRelativePath", "BoundaryWall.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh = { "WallMesh", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoundaryWall, WallMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh = { "WallMesh", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoundaryWall, WallMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABoundaryWall_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoundaryWall_Statics::NewProp_WallMesh,
 	};
@@ -66,18 +66,18 @@ void EmptyLinkFunctionForGeneratedCodeBoundaryWall() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABoundaryWall_Statics::ClassParams = {
 		&ABoundaryWall::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_ABoundaryWall_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_ABoundaryWall_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ABoundaryWall_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABoundaryWall_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABoundaryWall()
 	{
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeBoundaryWall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoundaryWall, 1089612071);
+	IMPLEMENT_CLASS(ABoundaryWall, 755971850);
 	template<> SNAKEGAME_API UClass* StaticClass<ABoundaryWall>()
 	{
 		return ABoundaryWall::StaticClass();
